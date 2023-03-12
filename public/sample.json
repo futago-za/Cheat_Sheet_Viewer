@@ -1,0 +1,354 @@
+{
+  "name": "Blender",
+  "data": [
+    {
+      "header": "システム",
+      "items": [
+        {
+          "description": "ファイル関連メニュー",
+          "actions": [{ "type": "key", "value": "F4" }]
+        },
+        {
+          "description": "新規ファイル作成",
+          "actions": [
+            { "type": "key", "value": "Ctrl" },
+            { "type": "text", "value": "+" },
+            { "type": "key", "value": "N" }
+          ]
+        },
+        {
+          "description": "ファイルを開く",
+          "actions": [
+            { "type": "key", "value": "Ctrl" },
+            { "type": "text", "value": "+" },
+            { "type": "key", "value": "O" }
+          ]
+        },
+        {
+          "description": "セーブ",
+          "actions": [
+            { "type": "key", "value": "Ctrl" },
+            { "type": "text", "value": "+" },
+            { "type": "key", "value": "S" }
+          ]
+        },
+        {
+          "description": "Blenderを終了",
+          "actions": [
+            { "type": "key", "value": "Ctrl" },
+            { "type": "text", "value": "+" },
+            { "type": "key", "value": "Q" }
+          ]
+        },
+        {
+          "description": "取り消し",
+          "actions": [
+            { "type": "key", "value": "Ctrl" },
+            { "type": "text", "value": "+" },
+            { "type": "key", "value": "Z" }
+          ]
+        },
+        {
+          "description": "やり直し",
+          "actions": [
+            { "type": "key", "value": "Ctrl" },
+            { "type": "text", "value": "+" },
+            { "type": "key", "value": "Shift" },
+            { "type": "text", "value": "+" },
+            { "type": "key", "value": "Z" }
+          ]
+        }
+      ]
+    },
+    {
+      "header": "マウス操作",
+      "items": [
+        {
+          "description": "視点平行移動",
+          "actions": [
+            { "type": "key", "value": "Shift" },
+            { "type": "text", "value": "+ 中ドラッグ" }
+          ]
+        },
+        {
+          "description": "視点回転",
+          "actions": [{ "type": "text", "value": "中ドラッグ" }]
+        },
+        {
+          "description": "ズーム",
+          "actions": [
+            { "type": "text", "value": "ホイール or" },
+            { "type": "key", "value": "Ctrl" },
+            { "type": "text", "value": "+ 中ドラッグ" }
+          ]
+        },
+        {
+          "description": "選択",
+          "actions": [{ "type": "text", "value": "左クリック" }]
+        },
+        {
+          "description": "操作の確定",
+          "actions": [
+            { "type": "text", "value": "左クリック or" },
+            { "type": "key", "value": "Enter" }
+          ]
+        },
+        {
+          "description": "操作キャンセル",
+          "actions": [
+            { "type": "text", "value": "右クリック or" },
+            { "type": "key", "value": "Esc" }
+          ]
+        },
+        {
+          "description": "移動",
+          "actions": [{ "type": "text", "value": "左ドラッグ" }]
+        },
+        {
+          "description": "3Dカーソル位置",
+          "actions": [
+            { "type": "key", "value": "Shift" },
+            { "type": "text", "value": "+ 右クリック" }
+          ]
+        }
+      ]
+    },
+    {
+      "header": "視点切り替え",
+      "items": [
+        {
+          "description": "視点切り替えのパイメニュー",
+          "actions": [
+            { "type": "key", "value": "`" },
+            { "type": "text", "value": "or" },
+            { "type": "key", "value": "@" }
+          ]
+        },
+        {
+          "description": "カメラ視点",
+          "actions": [{ "type": "key", "value": "0" }]
+        },
+        {
+          "description": "フロント視点",
+          "actions": [{ "type": "key", "value": "1" }]
+        },
+        {
+          "description": "サイド視点",
+          "actions": [{ "type": "key", "value": "3" }]
+        },
+        {
+          "description": "トップ視点",
+          "actions": [{ "type": "key", "value": "7" }]
+        },
+        {
+          "description": "現在の視点を反転",
+          "actions": [{ "type": "key", "value": "9" }]
+        },
+        {
+          "description": "視点を選択部分と平行にする",
+          "actions": [
+            { "type": "key", "value": "Shift" },
+            { "type": "text", "value": "+" },
+            { "type": "key", "value": "7" }
+          ]
+        },
+        {
+          "description": "パースのON/OFF",
+          "actions": [{ "type": "key", "value": "5" }]
+        },
+        {
+          "description": "選択オブジェクトのみをローカル表示/解除",
+          "actions": [{ "type": "key", "value": "/" }]
+        },
+        {
+          "description": "選択部分を中心にズーム",
+          "actions": [{ "type": "key", "value": "." }]
+        },
+        {
+          "description": "クリック位置を画面中央にする",
+          "actions": [
+            { "type": "key", "value": "Alt" },
+            { "type": "text", "value": "+ 中クリック" }
+          ]
+        },
+        {
+          "description": "可視オブジェクトを画面内に納める",
+          "actions": [{ "type": "key", "value": "Home" }]
+        },
+        {
+          "description": "可視オブジェクトを画面内に納める\n&3Dカーソルをワールド中心に移動",
+          "actions": [
+            { "type": "key", "value": "Shift" },
+            { "type": "text", "value": "+" },
+            { "type": "key", "value": "C" }
+          ]
+        }
+      ]
+    },
+    {
+      "header": "エディタ操作",
+      "items": [
+        {
+          "description": "サイドバー表示ON/OFF",
+          "actions": [{ "type": "key", "value": "N" }]
+        },
+        {
+          "description": "ツールバー表示ON/OFF",
+          "actions": [{ "type": "key", "value": "T" }]
+        }
+      ]
+    },
+    {
+      "header": "モード変更",
+      "items": [
+        {
+          "description": "モード切替のパイメニュー",
+          "actions": [{ "type": "key", "value": "Tab" }]
+        },
+        {
+          "description": "モードのトグル切替",
+          "actions": [
+            { "type": "key", "value": "Ctrl" },
+            { "type": "text", "value": "+" },
+            { "type": "key", "value": "Tab" }
+          ]
+        }
+      ]
+    },
+    {
+      "header": "作成",
+      "items": [
+        {
+          "description": "メッシュなどを追加",
+          "actions": [
+            { "type": "key", "value": "Shift" },
+            { "type": "text", "value": "+" },
+            { "type": "key", "value": "A" }
+          ]
+        }
+      ]
+    },
+    {
+      "header": "選択",
+      "items": [
+        {
+          "description": "選択",
+          "actions": [{ "type": "text", "value": "左クリック" }]
+        },
+        {
+          "description": "すべてを選択",
+          "actions": [{ "type": "key", "value": "A" }]
+        },
+        {
+          "description": "選択解除",
+          "actions": [
+            { "type": "key", "value": "Alt" },
+            { "type": "text", "value": "+" },
+            { "type": "key", "value": "A" },
+            { "type": "text", "value": "or" },
+            { "type": "key", "value": "A" },
+            { "type": "text", "value": "→" },
+            { "type": "key", "value": "A" },
+            { "type": "text", "value": "\nor 空きスペースで左クリック" }
+          ]
+        },
+        {
+          "description": "選択モードの切替",
+          "actions": [{ "type": "key", "value": "W" }]
+        },
+        {
+          "description": "ボックス選択",
+          "actions": [{ "type": "key", "value": "B" }]
+        },
+        {
+          "description": "円形ブラシで選択",
+          "actions": [{ "type": "key", "value": "C" }]
+        },
+        {
+          "description": "なげなわ選択",
+          "actions": [
+            { "type": "key", "value": "Ctrl" },
+            { "type": "text", "value": "+" },
+            { "type": "key", "value": "右ドラッグ" }
+          ]
+        },
+        {
+          "description": "頂点/辺/面選択切替",
+          "actions": [
+            { "type": "key", "value": "1" },
+            { "type": "text", "value": "~" },
+            { "type": "key", "value": "3" }
+          ]
+        },
+        {
+          "description": "ループ選択",
+          "actions": [
+            { "type": "key", "value": "Alt" },
+            { "type": "text", "value": "+" },
+            { "type": "key", "value": "左クリック" }
+          ]
+        },
+        {
+          "description": "マウス位置のメッシュ等とつながる部分を選択/解除",
+          "actions": [
+            { "type": "key", "value": "L" },
+            { "type": "text", "value": "/" },
+            { "type": "key", "value": "Shift" },
+            { "type": "text", "value": "+" },
+            { "type": "key", "value": "L" }
+          ]
+        },
+        {
+          "description": "現在の選択部分とつながる部分を選択",
+          "actions": [
+            { "type": "key", "value": "Ctrl" },
+            { "type": "text", "value": "+" },
+            { "type": "key", "value": "L" }
+          ]
+        },
+        {
+          "description": "選択範囲拡大/縮小",
+          "actions": [
+            { "type": "key", "value": "Ctrl" },
+            { "type": "text", "value": "+" },
+            { "type": "key", "value": "+" },
+            { "type": "text", "value": "/" },
+            { "type": "key", "value": "-" }
+          ]
+        }
+      ]
+    },
+    {
+      "header": "基本の変形操作",
+      "items": [
+        {
+          "description": "移動",
+          "actions": [
+            { "type": "key", "value": "G" },
+            { "type": "text", "value": "or 左ドラッグ" }
+          ]
+        },
+        {
+          "description": "回転",
+          "actions": [{ "type": "key", "value": "R" }]
+        },
+        {
+          "description": "拡大縮小",
+          "actions": [{ "type": "key", "value": "S" }]
+        },
+        {
+          "description": "削除",
+          "actions": [
+            { "type": "key", "value": "X" },
+            { "type": "text", "value": "or" },
+            { "type": "key", "value": "Delete" }
+          ]
+        },
+        {
+          "description": "プロポーショナル編集をON/OFF",
+          "actions": [{ "type": "key", "value": "O" }]
+        }
+      ]
+    }
+  ]
+}
